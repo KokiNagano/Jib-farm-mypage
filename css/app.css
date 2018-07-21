@@ -1,0 +1,225 @@
+
+.card-profile-stats {
+  border: 1px solid #cacaca;
+  margin: 1rem 0 1.25rem;
+  padding: 1.25rem;
+  background: #fefefe;
+}
+
+.card-profile-stats .card-profile-stats-intro {
+  text-align: center;
+}
+
+.card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-pic {
+  border-radius: 50%;
+  margin: 0 0 1.25rem;
+}
+
+.card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-content p:last-child {
+  margin: 0;
+}
+
+.card-profile-stats .card-profile-stats-container {
+  text-align: center;
+}
+
+.card-profile-stats .card-profile-stats-container .card-profile-stats-statistic {
+  margin: 0 0 1.25rem;
+}
+
+.card-profile-stats .card-profile-stats-container .card-profile-stats-statistic p:last-child {
+  margin: 0;
+}
+
+.card-profile-stats .card-profile-stats-more .card-profile-stats-more-link {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #0a0a0a;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.card-profile-stats-more-link a{
+  color: #000;
+}
+
+.card-profile-stats .card-profile-stats-more .card-profile-stats-more-content {
+  display: none;
+}
+
+
+@media print, screen and (min-width: 64em) {
+  .card-profile-stats .card-profile-stats-intro {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    text-align: left;
+  }
+  .card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-pic {
+    margin: 0 1.25rem 0 0;
+    max-width: 250px;
+  }
+  .card-profile-stats .card-profile-stats-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
+
+.profile-content-p{
+  color: #666666;
+}
+
+.profile-content-p i{
+  margin-right: 0.5rem;
+}
+
+.table-expand tr {
+  border: 1px solid #e6e6e6;
+}
+
+.table-expand .text-right {
+  padding-right: 3rem;
+}
+
+.table-expand-row.is-active .expand-icon::after {
+  content: '-';
+}
+
+.table-expand-row .expand-icon::after {
+  content: '+';
+  float: right;
+}
+
+.table-expand-row-content {
+  display: none;
+}
+
+.table-expand-row-content.is-active {
+  display: table-row;
+  -webkit-animation: fadeIn ease-in 1;
+          animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.table-expand-row-nested {
+  background-color: #e6e6e6;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.mobile-app-icon-bar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  background: #16ba5a;  /* fallback for old browsers */
+
+
+
+
+}
+
+.mobile-app-icon-bar button {
+  padding: 1.25rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.mobile-app-icon-bar button svg,
+.mobile-app-icon-bar button i,
+.mobile-app-icon-bar button img {
+  font-size: 2rem;
+  max-height: 2rem;
+  max-width: 2rem;
+}
+
+
+.mobile-bottom-bar {
+  width: 100%;
+  height: 3.778rem;
+  background: #16ba5a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-bottom-bar .footer-link {
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  padding: 0.907rem 1rem;
+}
+
+.mobile-bottom-bar .footer-link i.fa , .footer-link i.fas {
+  opacity: 0.8;
+  margin-right: 0.625rem;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.mobile-bottom-bar .footer-link:focus, .mobile-bottom-bar .footer-link:active {
+  color: #0c3e5f;
+}
+
+.mobile-bottom-bar .footer-text {
+  position: relative;
+  top: 2px;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.storage p{
+  margin-bottom: 0;
+}
+
