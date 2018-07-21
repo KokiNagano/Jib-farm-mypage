@@ -1,7 +1,9 @@
-
+body{
+  background: #cacaca;
+}
 .card-profile-stats {
-  border: 1px solid #cacaca;
-  margin: 1rem 0 1.25rem;
+  /*border: 1px solid #cacaca;*/
+  margin: 0;
   padding: 1.25rem;
   background: #fefefe;
 }
@@ -46,6 +48,7 @@
 
 .card-profile-stats .card-profile-stats-more .card-profile-stats-more-content {
   display: none;
+  padding: 0.5rem;
 }
 
 
@@ -159,7 +162,7 @@
 }
 
 .mobile-app-icon-bar button {
-  padding: 1.25rem;
+  padding: 0.5rem;
   cursor: pointer;
   color: #fff;
 }
@@ -211,7 +214,7 @@
   color: #0c3e5f;
 }
 
-.mobile-bottom-bar .footer-text {
+.footer-text {
   position: relative;
   top: 2px;
   font-weight: bold;
@@ -219,7 +222,12 @@
   color: #fff;
 }
 
-.storage p{
-  margin-bottom: 0;
+.header-text {
+  position: relative;
+  top: 2px;
+  margin-bottom:0;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #fff;
 }
 
