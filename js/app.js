@@ -17,3 +17,14 @@ $('[data-open-details]').click(function (e) {
   $(this).toggleClass('is-active');
 });
 
+var ctx = document.getElementById("myRaderChart");
+var myRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+    labels: ['自分', '他者', '社会'],
+    datasets: [{
+        label:"貢献度",
+        data: [20, 10, 4, 2]
+    }]
+}
+});
